@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.article {
+  text-align: left;
+  margin: 1em;
+  border-style: outset;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgba(0, 0, 255, 0.5); /* Transparent blue */
+}
+
+.button {
+  margin: 10px;
+  color: white;
+  background-color: green;
+  border-style: none;
+
+  padding: 8px;
+}
+
+.article span {
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
+}
+
+.loading {
+  font-size: 55px;
+  padding: 100px;
+}
+
+.article-title {
+  text-transform: capitalize;
+}
+
+.post-list-item {
+  transition: transform 0.2s, box-shadow 0.2s; /* Add a smooth transition effect */
+  cursor: pointer;
+}
+
+.post-list-item:hover {
+  transform: scale(1.05); /* Slight scaling to create a pop-out effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+}
